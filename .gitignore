@@ -1,40 +1,48 @@
-# Design files (please do not remove 🙂)
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production & Build Outputs
+dist/
+dist-ssr/
+build/
+out/
+.next/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+*.pem
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing & Coverage
+coverage/
+
+# IDE & Editor Files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Design Files
 *.sketch
 *.fig
 *.xd
 
-# Dependencies
-/node_modules
-/.pnp
-.pnp.js
-yarn.debug.log*
-yarn.error.log*
-npm-debug.log*
-
-# Environment and secrets
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Testing
-/coverage
-
-# Production
-/build
-/dist
-/.next
-/out
-
-# IDEs and editors
-/.idea
-/.vscode
-*.swp
-*.swo
-
-# Misc
-*.log
-*.pem
+# System Files & Misc
 .DS_Store
 Thumbs.db
+*.local
