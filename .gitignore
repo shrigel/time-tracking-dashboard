@@ -46,3 +46,12 @@ coverage/
 .DS_Store
 Thumbs.db
 *.local
+
+# Other
+design/
+AGENTS.md
+CLAUDE.md
+README-fem.md
+README-react.md
+README-template.md
+style-guide.md

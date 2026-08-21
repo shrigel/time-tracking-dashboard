@@ -36,8 +36,8 @@ function ActivityCard({ activity, timeFrame }) {
                         <img src={elipsisIcon} alt="elipsis icon" />
                     </div>
                     <div className="activity-time">
-                        <p>{activity.timeframes[timeFrame].current}hrs</p>
-                        <p>{previousLabels[timeFrame]} - {activity.timeframes[timeFrame].previous}hrs</p>
+                        <span>{activity.timeframes[timeFrame].current}hrs</span>
+                        <span>{previousLabels[timeFrame]} - {activity.timeframes[timeFrame].previous}hrs</span>
                     </div>
                 </div>
             </section>
