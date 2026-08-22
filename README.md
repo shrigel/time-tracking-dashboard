@@ -8,7 +8,7 @@ This is my solution to the **Time Tracking Dashboard** challenge on Frontend Men
 
 ## Links
 
-- **Live Site:** https://shrigel.github.io/time-tracking-dashboard/
+- **Live Site:** https://time-tracking-dashboard-ten-sigma.vercel.app/
 - **Frontend Mentor Challenge:** https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
 
 ## Built With
